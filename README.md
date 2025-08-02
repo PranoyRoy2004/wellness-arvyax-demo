@@ -53,12 +53,27 @@ wellness-arvyax/
 ├── backend/
 │   ├── server.js
 │   ├── models/
+│   │   ├── User.js
+│   │   └── Session.js
 │   ├── routes/
+│   │   ├── auth.js
+│   │   └── sessions.js
 │   ├── middleware/
-│   └── .env.example
+│   │   └── authJwt.js
+│   ├── .env
+│   └── package.json
 ├── frontend/
-│   └── src/
-└── README.md
+│   ├── package.json
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── App.js
+│   │   ├── pages/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── Dashboard.js
+│   │   │   └── SessionEditor.js
+│   │   └── api.js
+
 
 ## 🔌 API Endpoints
 
